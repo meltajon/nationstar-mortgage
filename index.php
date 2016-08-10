@@ -24,21 +24,16 @@
 
 <header id="header">
 	<div id="header-wrapper" class="wrapper">
-		<div class="td">
-			<a id="home-link" href="/"><img id="logo" alt="Nationstar Mortgage" src="assets/logo-nationstar-mortgage-139x53.png" /></a>
-		</div>
-		<div class="td">
-			<h1 id="page-title">Welcome to Nationstar</h1>
-		</div>
-		<div class="td">
-			<nav id="header-nav">
-				<a id="menu" href="#"><span>Menu</span></a>
-				<a class="header-nav-item" href="#">About Us</a>
-				<a class="header-nav-item" href="#">Customer Review</a>
-			</nav>
-		</div>
+		<a id="home-link" class="header-item" href="/"><img id="logo" alt="Nationstar Mortgage" src="assets/logo-nationstar-mortgage-139x53.png" /></a>
+		<nav id="header-nav" class="header-item">
+			<a id="menu" href="#main-menu"><span>Menu</span></a>
+			<a class="header-nav-item" href="#">About Us</a>
+			<a class="header-nav-item" href="#">Customer Review</a>
+		</nav>
+		<h1 id="page-title" class="header-item">Welcome to Nationstar</h1>
 	</div><!-- wrapper -->
 </header>
+
 <main>
 	<div class="wrapper">
 		<article>
@@ -101,9 +96,11 @@
 <footer id="footer">
 	<div class="wrapper">
 		<div id="footer-panel1">
+			<div id="main-menu"></div>
 			<nav id="footer-nav">
 				<span class="footer-nav-column">
 					<span><a href="#">About Us</a></span>
+					<span><a href="#">Customer Review</a></span>
 					<span><a href="#">Careers</a></span>
 					<span><a href="#">Investor Relations</a></span>
 				</span>
